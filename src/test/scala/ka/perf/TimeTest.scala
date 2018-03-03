@@ -16,11 +16,4 @@ class TimeTest extends FunSuite {
     assert(time === 1e6)
   }
 
-  test("Accurate average") {
-    val time = TimeUtil.timeItAvg(10) {
-      Thread.sleep(1)
-    }
-    assert(time === 1e6)
-  }
-
 }

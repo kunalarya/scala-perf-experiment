@@ -1,0 +1,6 @@
+project/target/
+*~
+*.swp
+target/
+_trash
+

@@ -17,8 +17,6 @@ scalacOptions ++= Seq(
 
 // Main Deps
 libraryDependencies ++= Seq(
-  "org.scala-lang" % "scala-reflect" % scalaVersion.value,
-  "org.typelevel"  %% "squants"  % "1.3.0"
 )
 
 // Testing Dependencies
